@@ -19,15 +19,12 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
+          flutter-version: '3.24.5'  # <--- The perfect version for your code
           channel: stable
           cache: true
 
       - name: Install dependencies
         run: flutter pub get
-
-      - name: Analyze (informational)
-        run: flutter analyze --no-fatal-infos --no-fatal-warnings
-        continue-on-error: true
 
       - name: Build release APK
         run: flutter build apk --release --no-shrink
