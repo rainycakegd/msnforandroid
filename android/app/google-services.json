@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004847967358",
+    "project_id": "msn-for-android",
+    "storage_bucket": "msn-for-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004847967358:android:13e36dc82d8b7b3acf3c2f",
+        "android_client_info": {
+          "package_name": "com.rainingcakes.msnfa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3mwtL_zRTc1AjoYZJXsIWkAeR_sZV9EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
