@@ -225,7 +225,7 @@ class Emoticons {
     ':|': 'neutral.png',
     '8-)': 'cool.png',
     '(H)': 'cool.png',
-    ':$': 'embarrassed.png',
+    ':\$': 'embarrassed.png',
     '(L)': 'heart.png',
     '(A)': 'angel.png',
     '(6)': 'devil.png',
