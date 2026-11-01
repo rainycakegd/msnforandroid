@@ -1,3 +1,4 @@
+# pubspec.yaml
 name: aero_messenger
 description: A Frutiger Aero / MSN Messenger inspired real-time chat app for Android.
 publish_to: 'none'
@@ -19,6 +20,10 @@ dependencies:
   firebase_auth: ^4.17.8
   cloud_firestore: ^4.15.8
   firebase_storage: ^11.6.9
+  firebase_messaging: ^14.7.10
+
+  # Foreground notification banners + high-importance channel
+  flutter_local_notifications: ^17.2.1
 
   # Audio (nudge sound, message notification sounds)
   audioplayers: ^5.2.1
